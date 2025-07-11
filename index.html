@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Color Memory — TapiTap</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <div id="splash-screen">
+      <h1>Color Memory</h1>
+      <p>Запомни цветовую последовательность</p>
+      <button id="splash-btn">Начать</button>
+    </div>
+
+    <h1>Color Memory</h1>
+    <div id="score-board">
+      <span>Счёт: <span id="score">0</span></span>
+      <span>Рекорд: <span id="high-score">0</span></span>
+    </div>
+
+    <div class="grid">
+      <button class="color-btn" id="red" data-color="red"></button>
+      <button class="color-btn" id="blue" data-color="blue"></button>
+      <button class="color-btn" id="green" data-color="green"></button>
+      <button class="color-btn" id="yellow" data-color="yellow"></button>
+    </div>
+
+    <div>
+      <button id="start-btn">▶ Начать игру</button>
+    </div>
+
+    <div id="status-text"></div>
+    <div id="level-flash"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
