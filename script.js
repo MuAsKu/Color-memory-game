@@ -1,4 +1,3 @@
-// Конфигурация
 const CONFIG = {
   colors: ["red", "blue", "green", "yellow"],
   flashDuration: 300,
